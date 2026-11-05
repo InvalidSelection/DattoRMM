@@ -40,6 +40,15 @@ For more information on the REST API properties, go to https://merlot-api.centra
 
 # Release notes
 
+## Unreleased
+- Added Get-DrmmSiteFilters (by Kyle Elliott)
+- Added Get-DrmmAccountDnetSiteMappings (by Kyle Elliott)
+- Added Update-DrmmSite - Changes only the site settings supplied. Set-DrmmSite resets any setting it is not given (by Kyle Elliott)
+- Added New-ApiPagedRequest - Shared helper that follows nextPageUrl for paged GET endpoints (by Kyle Elliott)
+- Updated Get-DrmmAccountSites - Added -SiteName filter (by Kyle Elliott)
+- Updated New-DrmmSite - Added optional proxy settings and -WhatIf/-Confirm (by Kyle Elliott)
+- Updated Set-DrmmSite, Set-DrmmSiteProxy and Remove-DrmmSiteProxy - Added -WhatIf/-Confirm (by Kyle Elliott)
+
 ## Version 1.0.0.34
 - Fixed clear Set-DrmmDeviceWarranty issue (by Jonathan Buller)
 - Added Get-DrmmJobResults (by Michael Young)
