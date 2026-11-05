@@ -40,6 +40,12 @@ For more information on the REST API properties, go to https://merlot-api.centra
 
 # Release notes
 
+## Unreleased
+- Added Get-DrmmDevicePatches (by Kyle Elliott)
+- Added Get-DrmmSitePatches (by Kyle Elliott)
+- Added Get-DrmmDevicePatchPolicies (by Kyle Elliott)
+- Added New-ApiPagedRequest - Shared helper that follows nextPageUrl for paged GET endpoints (by Kyle Elliott)
+
 ## Version 1.0.0.34
 - Fixed clear Set-DrmmDeviceWarranty issue (by Jonathan Buller)
 - Added Get-DrmmJobResults (by Michael Young)
