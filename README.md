@@ -40,6 +40,12 @@ For more information on the REST API properties, go to https://merlot-api.centra
 
 # Release notes
 
+## Unreleased
+- Added Get-DrmmSystemStatus (by Kyle Elliott)
+- Added Get-DrmmSystemRequestRate (by Kyle Elliott)
+- Added Get-DrmmSystemPagination (by Kyle Elliott)
+- Updated Get-DrmmActivityLogs - Added -SearchQuery and fixed nextPageUrl parsing (by Kyle Elliott)
+
 ## Version 1.0.0.34
 - Fixed clear Set-DrmmDeviceWarranty issue (by Jonathan Buller)
 - Added Get-DrmmJobResults (by Michael Young)
